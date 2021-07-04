@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="Mrmkが作成したテーマ「Simple」のデモページです。" />
+
+    <!-- Title -->
+    <title>Simple｜Mrmk's Theme Demo Site</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://mrmkroll.github.io/img/favicon.ico">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined">
+</head>
+
+<body onContextmenu="return false;">
+    <!-- Header -->
+    <header>
+        <div id="title-frame">
+            <a id="title" href="/">Simple Template Demo</a>
+        </div>
+    </header>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <article>
+            <div class="haed">
+                <img src="https://cdn.discordapp.com/attachments/779373757260759100/794615480983879720/unknown.png">
+                <h1 id="page-title">Simple Template</h1>
+                <div id="user-frame">
+                    <a href="https://twitter.com/_Mrmk" target="blank">
+                        <img id="avatar" src="https://en.gravatar.com/userimage/196855249/3c69c615f60c90bbc27a0869087ca6c9.png">
+                    </a>
+                    <div id="text">
+                        <div class="name">
+                            <a class="name" href="https://twitter.com/_Mrmk" target="blank">Mrmk</a>
+                        </div>
+                        <time datetime="2021-07-03T22:00:00+09:00">2021/07/03 11:28:41</time>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <section>
+                    <h2>Simple</h2>
+                    <p>
+                        HTML・CSSを勉強したい方や、<a href="https://note.com/info/n/nea1b96233fbf" target="blank">note</a>のような簡素なページを作りたい方向けのサイトテンプレートです。<br>
+                        <br>
+                        デモページのHTMLは<a href="https://github.com/Mrmkroll/demo-site/blob/main/simple/index.html" target="blank">こちら</a>からご覧いただけます。
+                    </p>
+                </section>
+                <section>
+                    <h2>Features</h2>
+                    <blockquote>
+                        ・シンプルで無駄のない構造<br>
+                        ・高速なページの読み込み<br>
+                        ・画像クリックでオリジナル画像のポップアップ表示<br>
+                        ・ポップアップ表示中の画像切り替え<br>
+                        ・404ページの表示
+                    </blockquote>
+                    <blockquote>
+                        <b>できること</b><br>
+                        ・HTMLの学習<br>
+                        ・既存のCSSのカスタマイズ
+                    </blockquote>
+                </section>
+                <section>
+                    <h2>Sample</h2>
+                    
+                    <h3 id="index">Index</h3>
+                    <div class="contents-box">
+                        目次
+                        <ol>
+                            <li>
+                                <a href=#index>Index</a>
+                            </li>
+                            <li>
+                                <a href=#button>Button</a>
+                            </li>
+                            <li>
+                                <a href=#image>Image</a>
+                            </li>
+                            <li>
+                                <a href=#table>Table</a>
+                            </li>
+                            <li>
+                                <a href=#404>404 Page</a>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <h3 id="button">Button</h3>
+                    <h4>buttonタグ</h4>
+                    <button>Button</button>
+
+                    <h4>inputタグ</h4>
+                    <input class="button" type="button" value="Reload Page" onclick="window.location.reload();" />
+
+                    <h4>divタグ</h4>
+                    <a href="https://github.com/Mrmkroll/simple" target="blank">
+                        <div class="button-frame">
+                            <div class="dl-bt">
+                                <span class="material-icons dl-ico">save_alt</span><span class="dl-text">Download</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <h3 id="image">Image</h3>
+                    <h4>ポップアップ表示なし</h4>
+                    <div class="img-frame">
+                        <a href="https://cdn.discordapp.com/attachments/779373757260759100/794615480983879720/unknown.png" target="blank">
+                            <img src="https://cdn.discordapp.com/attachments/779373757260759100/794615480983879720/unknown.png">
+                        </a>
+                    </div>
+
+                    <h4>ポップアップ表示あり</h4>
+                    <div class="img-frame">
+                        <a href="https://cdn.discordapp.com/attachments/779373757260759100/790078154206216212/og_image.png" data-lightbox="group">
+                            <img src="https://cdn.discordapp.com/attachments/779373757260759100/790078154206216212/og_image.png">
+                        </a>
+                        <p class="img-text"> 画像をクリックすると拡大されます。</p>
+                    </div>
+                    <div class="img-frame">
+                        <a href="https://pbs.twimg.com/media/E1X7z1aUUAAQLpG?format=jpg&name=orig" data-lightbox="group">
+                            <img src="https://pbs.twimg.com/media/E1X7z1aUUAAQLpG?format=jpg&name=orig">
+                        </a>
+                        <p class="img-text"> 画像をクリックすると拡大されます。</p>
+                    </div>
+
+                    <h3 id="table">Table</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>好き</th>
+                                <th>嫌い</th>
+                                <th>どちらでもない</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tv bold">りんご</td>
+                                <td></td>
+                                <td></td>
+                                <td>○</td>
+                            </tr>
+                            <tr>
+                                <td class="tv bold">青りんご</td>
+                                <td>○</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="tv bold">なし</td>
+                                <td>○</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="tv bold">洋なし</td>
+                                <td></td>
+                                <td>○</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" scope="rowgroup">IAA（国際適当協会）より引用</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <h3 id="404">404 Page</h3>
+                    <p>
+                        404ページは<a href="https://demo-mrmk.ml/simple/404.html">こちら</a>からご覧いただけます。
+                    </p>
+                </section>
+            </div>
+        </article>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            Powered by Google, Lokesh Dhakar
+        </div>
+    </footer>
+    <script type="text/javascript" src="../js/simple.js"></script>
+</body>
+
+</html>
